@@ -55,9 +55,9 @@ const DEFAULT_OPTIONS = {
     highlight: function (str, lang) {
       if (lang && hljs.getLanguage(lang)) {
         try {
-          return `<pre class="hljs"><code>${
-            hljs.highlight(lang, str, true).value
-          }</code></pre>`;
+          return '<pre class="hljs language-' + escape(lang.toLowerCase()) + '"><code>' +
+            hljs.highlight(str, { language: lang, ignoreIllegals: true }).value +
+            '</code></pre>';
         } catch (__) {}
       }
 
