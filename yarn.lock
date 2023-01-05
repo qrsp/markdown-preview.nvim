@@ -3584,6 +3584,13 @@ markdown-it-emoji@^1.4.0:
   resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
   integrity sha1-m+4OmpkKljupbfaYDE/dsF37Tcw=
 
+markdown-it-fancy-lists@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-fancy-lists/-/markdown-it-fancy-lists-1.2.1.tgz#a58e31316957d5293f808c5247098340c51842e6"
+  integrity sha512-EYuYlQXlgHLK1HGlAfT9+Ykg0x1MQhsuZI+DzAy/3+rUjalNzTqnWVfX2Y0SnnVjz5adQW1sxsgm+3NVRvo43A==
+  dependencies:
+    roman-numerals "^0.3.2"
+
 markdown-it-footnote@^3.0.1:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.3.tgz#e0e4c0d67390a4c5f0c75f73be605c7c190ca4d8"
@@ -4858,6 +4865,11 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
+
+roman-numerals@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/roman-numerals/-/roman-numerals-0.3.2.tgz#907ddf90c64e1b5dce8ed5e8fb0718318f2f26e6"
+  integrity sha512-aTmaKtxczT3K4ZhtJDauOZ6LY3e1xNDf2SBn7aRY/ErAtCCuVYuwNQbPuh+SWTjGmbg9p5Nlt8sJbQNkto8uyg==
 
 run-parallel@^1.1.9:
   version "1.2.0"

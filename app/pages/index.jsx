@@ -9,6 +9,7 @@ import footnote from 'markdown-it-footnote'
 import markdownItAnchor from 'markdown-it-anchor'
 import markdownItToc from 'markdown-it-toc-done-right'
 import markdownDeflist from 'markdown-it-deflist'
+import { markdownItFancyListPlugin } from "markdown-it-fancy-lists"
 
 import mk from './katex'
 import chart from './chart'
@@ -190,6 +191,7 @@ export default class PreviewPage extends React.Component {
         .use(emoji)
         .use(taskLists)
         .use(markdownDeflist)
+        .use(markdownItFancyListPlugin)
         .use(footnote)
         .use(image)
         .use(markdownImSize)
